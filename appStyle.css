@@ -56,3 +56,15 @@ header {
     width: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the image to fill the area */
   }
+
+  .video-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if needed) */
+    margin: 20px; /* Optional: add some margin */
+  }
+  iframe {
+    width: 560px; /* Set a fixed width */
+    height: 315px; /* Set a fixed height */
+    border: none; /* Remove border */
+  }
