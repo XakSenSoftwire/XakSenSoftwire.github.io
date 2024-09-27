@@ -52,7 +52,7 @@ header {
   }
   
   .image-wrapper img {
-    width: 100%; /* Make the image take the full width */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Set height to fill the wrapper */
+    width: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the image to fill the area */
   }
