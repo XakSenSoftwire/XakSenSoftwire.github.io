@@ -37,3 +37,22 @@ header {
   .nav-tabs a:hover {
     background-color: #0058b6; /* Darker blue on hover */
   }
+
+  .image-container {
+    display: flex; /* Use flexbox for side-by-side display */
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Space between images */
+  }
+  
+  .image-wrapper {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 10px; /* Optional: add rounded corners */
+  }
+  
+  .image-wrapper img {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop the image to fill the area */
+  }
