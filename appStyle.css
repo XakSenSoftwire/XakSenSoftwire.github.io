@@ -8,6 +8,7 @@ header {
   /* Style for the navigation tabs */
   .navbar {
     display: flex;
+    background-color: #004085;
     justify-content: center; /* Center the tabs horizontally */
   }
   
@@ -34,5 +35,5 @@ header {
   
   /* Hover effect for tabs */
   .nav-tabs a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0058b6; /* Darker blue on hover */
   }
